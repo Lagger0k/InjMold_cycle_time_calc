@@ -1,5 +1,7 @@
 # main для запуска))
+from user_interface import Application
 
-print('Welcome!')
 
-print('Bye!')
+if __name__ == "__main__":
+    root = Application()
+    root.mainloop()
